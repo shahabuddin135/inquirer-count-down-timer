@@ -1,0 +1,22 @@
+{
+  "name": "inquirer-count-down-timer",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": "index.js",
+  "description": "A simple CLI based inquirer count down timer build using typescript language, where user can enter his prefred time and start the countdown, the user can also choose from existing choices of Days, year, month, hours and seconds. There is also a cheatsheet for how much second the user can enter. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Shahabuddin",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.2.20"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
